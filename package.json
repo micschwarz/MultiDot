@@ -1,0 +1,22 @@
+{
+  "name": "multidot",
+  "version": "1.0.0",
+  "description": "Multiline elipsis",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micschwarz/MultiDot.git"
+  },
+  "author": "micschwart <089michael@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micschwarz/MultiDot/issues"
+  },
+  "homepage": "https://github.com/micschwarz/MultiDot#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
