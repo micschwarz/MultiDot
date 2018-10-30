@@ -1,22 +1,29 @@
 {
-  "name": "multidot",
-  "version": "1.0.0",
-  "description": "Multiline elipsis",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/micschwarz/MultiDot.git"
-  },
-  "author": "micschwart <089michael@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/micschwarz/MultiDot/issues"
-  },
-  "homepage": "https://github.com/micschwarz/MultiDot#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1"
-  }
+    "name": "multidot",
+    "version": "1.0.0",
+    "description": "Multiline elipsis",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "gulp",
+        "buildbabelless": "gulp buildBabelless"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/micschwarz/MultiDot.git"
+    },
+    "author": "micschwart <089michael@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/micschwarz/MultiDot/issues"
+    },
+    "homepage": "https://github.com/micschwarz/MultiDot#readme",
+    "devDependencies": {
+        "@babel/core": "^7.1.2",
+        "@babel/preset-env": "^7.1.0",
+        "gulp": "^4.0.0",
+        "gulp-babel": "^8.0.0-beta.2",
+        "gulp-minify": "^3.1.0"
+    },
+    "dependencies": {}
 }

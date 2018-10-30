@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MultiDot</title>
+</head>
+<body>
+<div id="multidot">
+    <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet eligendi eos ex praesentium qui quisquam
+        tempore. Laborum quisquam repudiandae sapiente. Aut, consequuntur dolor eius harum minima non reiciendis.
+        Beatae?
+    </div>
+</div>
+<div id="multidot-2">
+    <div class="content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A amet eligendi eos ex praesentium qui quisquam
+        tempore. Laborum quisquam repudiandae sapiente. Aut, consequuntur dolor eius harum minima non reiciendis.
+        Beatae?
+    </div>
+</div>
+</body>
+<style>
+    body {
+        background : #fafafa;
+        display    : flex;
+    }
+
+    #multidot, #multidot-2 {
+        width    : 150px;
+        height   : 100px;
+        border   : 1px solid rgba(0, 0, 0, .5);
+        padding  : 10px;
+        margin   : 5px;
+        overflow : hidden;
+    }
+</style>
+<script src="../out/MultiDot-min.js"></script>
+<script>
+    new MultiDot(document.getElementById('multidot'));
+    new MultiDot(document.getElementById('multidot-2'));
+</script>
+</html>
